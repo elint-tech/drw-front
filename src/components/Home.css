@@ -1,0 +1,27 @@
+.buttons-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 4rem 1rem;
+}
+
+.buttons-container .try:hover {
+  background-color: #1e8b9c;
+}
+.buttons-container i {
+  width: 5rem;
+  margin-right: 2.4rem;
+}
+.buttons-container .try {
+  background-color: #17a2b8;
+  margin-right: 0;
+  width: 22rem;
+  height: 6rem;
+  border-radius: 0.8rem;
+  color: #fff;
+  font: 700 2.2rem Archivo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background 0.2s;
+}

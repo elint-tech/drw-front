@@ -1,0 +1,24 @@
+:root {
+  --color-background: #eaebf5;
+  --color-primary: #2e9cca;
+  --color-primary-dark: #29648a;
+  --color-secondary: #464866;
+  --color-secondary-dark: #1a1c38;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+body,
+textarea,
+input,
+button {
+  color: var(--color-secondary-dark);
+}
