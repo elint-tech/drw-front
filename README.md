@@ -32,6 +32,8 @@ Make sure to let all clear to us. The documentation will have a huge impact in y
 
 You can access the challenge page at http://elint-challenge.s3-website-sa-east-1.amazonaws.com/
 
+Video Link: https://youtu.be/Ba79hoAA1G4
+
 ### Technologies used
 
 1. Javascript
