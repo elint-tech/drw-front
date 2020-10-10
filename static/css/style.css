@@ -1,0 +1,91 @@
+/* PALETA DE CORES 
+#1A1C38
+#464866
+#DEE0F2
+#2E9CCA
+#29648A
+*/
+
+*{
+    
+    font-family: 'Dosis', sans-serif;
+}
+body{
+    background-color: #DEE0F2 !important;
+}
+header{
+    background-color: #1A1C38;
+    align-items: center;
+    height: 10%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1900px !important;
+    justify-content: space-around;
+}
+
+.logo{
+    flex: 1;
+    opacity: 0.85;
+}
+
+.logo:hover{
+    opacity: 1;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu-links{
+    margin-top: 0 !important;
+}
+
+.nav-link{
+    color: #DEE0F2;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 300;
+    opacity: 0.85;
+}
+
+.nav-link:hover{
+    color: #fff;
+    opacity: 1;
+}
+
+a img{
+    height: 26px;
+    margin-right: 7vh;
+}
+
+.corpo{
+    height: 85%;
+}
+
+.corpo h3{
+    font-size: 30px;
+    font-weight: 300;
+    color: #1A1C38;
+
+}
+
+.corpo{
+    width: 90%;
+    justify-content: center;
+}
+
+footer{
+    height: 5%;
+    font-size: 20px;
+    text-align: center;
+    background-color: #1A1C38;
+    color: #DEE0F2;
+}
+footer p{
+    margin-bottom: 0 !important;    
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- uso da função 'url for' que permite direcionamento para acesso de imagens, css e outros tipos de arquivo -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Elint Audio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="logo">
+                <a href="#">
+                    <!-- uso da função 'url for' que permite direcionamento para acesso de imagens, css e outros tipos de arquivo -->
+                    <img src="{{url_for('static', filename='img/logo.png')}}" alt="elint">
+                </a>
+            </div>
+            <section class="menu">
+                <nav class="nav nav-navbar menu-links">
+                    <a class="nav-link" href="https://www.elint.com.br/">Site</a>
+                    <a class="nav-link" href="#features">Help</a>
+                </nav>
+            </section>
+        </div>
+    </header>
+    <section>
+        <div class="corpo">
+            <h3>UPLOAD DE ARQUIVOS DE ÁUDIO</h3>
+            <form method= "POST" action="/upload" enctype="multipart/form-data">
+                <label for="myfile">Selecione um arquivo .mp3:</label>
+                <input type="file" id="inputFile" name="inputFile"><br><br>
+                <input type="submit">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Elint© 2020. All rights reserved.</p>
+    </footer>
+</body>
+</html>
